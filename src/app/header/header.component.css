@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    border: 1px;
+}
+.topHeader {
+    margin-top: 10px;
+    margin-left: -10px;
+    font-family: Popins;
+    font-weight: 400;
+    font-size: 12px;
+    width: 1440px;
+    ;
+    height: 42px;
+    background: #1A1A1A;
+    display: flex;
+
+    /* align-content: center; */
+
+}
+#left {
+    width: 378px;
+    margin-left: 50px;
+
+}
+
+#right {
+    width: 320px;
+    margin-left: 607px;
+
+}
+
+svg {
+    margin-inline: 8px;
+    color: #626262
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+li {
+    margin: 10px;
+    list-style-type: none;
+    display: inline;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-top: -42px;
+    height: 788px;
+    width: 1440px;
+    background-color: #1A1A1A;
+
+    
+}
+
+#title {
+    display: flex;
+}
+
+#heading {
+    width: 176px;
+    height: 60px;
+    font-family: Popins;
+    font-weight: 275;
+    font-size: 40px;
+    line-height: 60px;
+    color: white;
+    margin-left: 90px;
+}
+
+#wishList {
+    width: 89px;
+    height: 16px;
+    margin-top: 60px;
+    margin-left: 770px;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.42px;
+    border: 1px;
+}
+
+#wish {
+    color: white;
+}
+
+#bag {
+    color: white;
+}
+.navigation{
+    display: flex; 
+    justify-content: space-evenly;
+    padding-right: 500px;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+    
+    
+  }
+  .dropdown-content a {
+    display: flex;
+    color: rgba(247, 243, 243, 0.627);
+    padding-left:5px ;
+    margin-left: 30px;
+    text-decoration: none;
+    
+  }
+
+.H1title{
+    height: 151px; 
+    width: 689px;
+    margin-left: 260px;
+    
+}
+#title1{
+    color: #FFFFFF;
+    font-family: Syne;
+    font-weight: 800;
+    font-size: 135px;
+    line-height: 102.6px;
+    position: absolute;
+}
+.H2title{
+    height: 144px; 
+    width: 710px;
+    margin-left: 424px;
+    border: 2px;
+}
+
+@supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
+        #title2{
+            color: transparent;
+            -webkit-text-stroke: 2px #FFFFFF;
+            /* text-stroke: 2px #FFFFFF; */
+             text-shadow: none;
+            font-family: Syne;
+            font-weight: 800;
+            font-size: 135px;
+            line-height: 102.6px;
+            text-align:start;
+            position: absolute;
+        }
+    }        
+.H3title{
+    width: 527px;
+    height: 103px;
+    margin-left: 290px;
+}
+#title3{
+    font-family: Syne;
+    position: absolute;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 102.6px;
+    color: #FFFFFF;
+}
+.Rectangle30 {
+    width: 993px;
+    height: 354.3px;
+    position: absolute;
+    margin-top: 344.62px;
+    margin-left: 447px;
+    opacity: 1;
+    background: #F07E15;
+  }
+.star{
+    width: 367px;
+    height: 371.51px;
+    margin-top: 129px;
+    margin-left: 1010px;
+    position: absolute;
+    
+}
+#star3{
+    color: #FFFFFF;
+    position: absolute;
+}
+.img{
+    width: 432px;
+    height: 654.95px;
+    margin-top: 133.05px;
+    margin-left: 899px;
+    position: absolute;
+    
+}
+#jessi{
+    position: absolute;
+}
+.jacket{
+    width: 117px;
+    height: 16.2px;
+    margin-top: 50px;
+    margin-left: 1300px;
+    
+}
+#jacket{
+    position: absolute;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 16.42px;
+    color:#161615 ;
+}
+.price{
+    /* position: absolute; */
+    width: 31px;
+    height: 16.2px;
+    margin-left: 1300px;
+    margin-top: 15px;
+}
+#price{
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 16.42px;
+    color: #161615;
+    position: absolute;
+}
+  
+  
+  

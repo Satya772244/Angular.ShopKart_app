@@ -1,0 +1,29 @@
+<div class="body">
+    <div class="H2title">
+        <p id="prod">New Products</p>
+        <hr style="height:2px;width:549px;border-width:1px;background-color:#161615;margin-left:-10px;margin-top: -100px;">
+    </div>
+    <div id="list">
+        <p class="Bodytext18">Apparel</p>
+        <p id="subtitles">Accessories</p>
+        <p class="Bodytext18">Best sellers</p>
+        <p class="Bodytext18">50% off</p>
+
+    </div>
+    <div class="products">
+        <table >
+            <thead id="img" *ngFor="let item of productList"> 
+                <tr >
+                <th ><img src="{{item.image}}" ></th>
+                </tr>
+                <tr><td id="title">{{item.title}}</td></tr>
+                <tr><td id="desc">{{item.description}}></td></tr>
+                <tr><td >{{item.category}}</td></tr>
+                <tr><td id="price">{{item.price}}</td></tr>
+                
+            </thead>
+       
+        </table>
+    </div>
+
+</div>

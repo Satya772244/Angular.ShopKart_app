@@ -1,0 +1,84 @@
+.H2title{
+    width: 689px;
+    height: 151px;
+    margin-left: 83px;
+}
+#prod{
+    
+    font-family: Syne;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 108px;
+    color: black;
+}
+#list{
+    height: 608px;
+    width: 200px;
+    margin-left: 91px;
+}
+.Bodytext18{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.11px;
+    color:#000000 ;
+}
+#subtitles{
+    font-family: Syne;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31.2px;
+    color: #000000;
+}
+.products{display: flexbox;
+    align-content: flex-start;
+    
+    width: 1150px;
+    margin-right: 100px;
+    margin-left: 280px;
+    margin-top: -650px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: absolute;
+   
+}
+
+table{
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 50px;
+    
+
+    
+}
+
+img{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    height: 322px;
+    width: 310px;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    font-size: 20px;
+}
+#price{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+#desc{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+td{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    
+}

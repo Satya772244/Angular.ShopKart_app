@@ -1,0 +1,119 @@
+#footer{
+    width: 1440px;
+    height: 520px;
+    margin-left: -9px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    border: 2px;
+    border-color: #e02d2d;
+}
+#newsllter{
+    position: absolute;
+    width: 385px;
+    height: 104px;
+    margin-left: 103px;
+    margin-top: 90px;
+    
+}
+h3{
+    font-family: Syne;
+    font-weight: 600;
+    size: 26px;
+    line-height: 31.2px;
+    color: #FFFFFF80;
+    
+}
+p{
+  color: #FFFFFF80;
+  width: 235px;
+  font-weight: 400;
+  size: 18px;
+  line-height: 21.11px;
+  font-family: Work Sans;
+
+}
+#footerHeading{
+    width: 1159px;
+    /* height: 236px; */
+    position: absolute;
+}
+#get{
+    width: 500px;
+    height: 106px;
+    margin-bottom: 0px;
+    margin-left: 90px;
+    margin-top: 300px;
+    font-family: Syne;
+    font-weight: 800;
+    font-size: 135px;
+    line-height: 102.6px;
+    color: #FFFFFF;
+}
+#touch{
+    width: 1159px;
+    height: 106px;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-family: Syne;
+    font-weight: 800;
+    font-size: 135px;
+    line-height: 102.6px;
+    color: #FFFFFF;
+}
+#bottom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1455px;
+    height: 66px;
+    /* margin-top: 2028px; */
+    margin-left: -9px;
+    background-color: #000000;
+}
+#copyright{
+    width: 287px;
+    height: 18px;
+    font-family: Poppins;
+    size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.input{
+    
+    margin-left: 500px;
+    margin-top: -500px;
+
+    
+    
+}
+input{
+    height: 30px;
+    width: 303px;
+    font-family: Work Sans;
+    font-weight: 400;
+    size: 18px;
+    line-height: 21.11px;
+    border:none;
+    background: none;
+    border-bottom: 1px solid#FFFFFF80;
+}
+.circular-button {
+    margin-top: -350px;
+    position: absolute;
+    margin-right: 100px;
+    z-index: 2;
+    width: 181px;
+    height: 181px;
+    border-radius: 50%; /* Make it circular */
+    background-color: transparent; /* Set background color to transparent */
+    border: 2px solid #F07E15; /* Add a border with a blue color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F07E15;
+    font-size: 20px;
+    cursor: pointer;
+}
