@@ -8,6 +8,6 @@ export class ProductsService {
 
   constructor( private http:HttpClient) { }
   productList(){
-    return this.http.get<product[]>('http://localhost:3000/products');
+    return this.http.get<product[]>('https://fakestoreapi.com/products');
   }
 }
